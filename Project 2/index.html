@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" integrity="sha512-UBY4KATrDAEKgEEU+RAfY4yWrK0ah43NGwNr5o/xmncxsT+rv8jp7MI3a00I0Ep3NbAx05U5kw3DvyNCoz+Wcw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/carusel.css">
+</head>
+<body>
+
+    
+
+    <header class="header">
+        <div class="container flex">
+            <img src="./img/header/Pompeo.svg" alt="Pompeo_img">
+            <div class="flex">
+                <div id="menuToggle" class="menu">
+                    <input id="toggleCheckbox" type="checkbox" class="menu_checkbox">
+                    <div class="check-wrapper">
+                        <div class="check"></div>
+                        <div class="check"></div>
+                        <div class="check"></div>
+                    </div>
+                    <nav class="header_nav flex">
+                        <ul class="header_ul flex">
+                            <li class="header_li">
+                                <a class="header_link" id="about-link" href="#">Home</a>
+                            </li>
+                            <li class="header_li">
+                                <a class="header_link" href="#">About</a>
+                            </li>
+                            <li class="header_li">
+                                <a class="header_link" href="#">Shop</a>
+                            </li>
+                            <li class="header_li">
+                                <a class="header_link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="line_small">                
+                </div>
+                <div class="logo flex">
+                    <img class="logo_img" src="./img/header/Vector.svg" alt="logo_img">
+                    <p class="logo_text">
+                         Cart
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="main">
+        <div class="container main_container flex flex_main-column">
+            <div class="main_block">
+                <p class="main_pretitle">
+                    Pompeo POttery
+                </p>
+                <h1 class="main_title">
+                    Unique <span class="main_icon">Porcelain</span>Stone Collection
+                </h1>
+                <p class="main_text"> 
+                    Unique & modern pottery made by our master in porcelain & stones
+                </p>
+                <button id="open-modal" class="button button-width">
+                    Shop Collection
+                </button>
+            </div>
+            <div>
+                <img class="main-image_img" src="./img/main/main-image.png" alt="main-img">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="categories">
+        <div class="container categories_container">
+            <div class="block">
+                <p class="block_pretitle">
+                    Product Categories
+                </p>
+                <h3 class="block_title">
+                    <span class="block_icon"> Porcelain </span> Pottery
+                </h3>
+            </div>
+            
+            <div class="flex">
+                <div class="categories_item">
+                    <img class="categories_img" src="./img/categories/image_1.svg" alt="image_1">
+                </div>
+                <div class="categories_item">
+                    <img class="categories_img" src="./img/categories/image_2.svg" alt="image_2">
+                </div>
+                <div class="categories_item">
+                    <img class="categories_img" src="./img/categories/image_3.svg" alt="image_3">
+                </div>
+            </div>
+
+            <div class="flex flex_categories-column">
+                <div class="categories_text-block">
+                    <h4 class="categories_heading">
+                        Hand Grafted Pottery since 1990
+                    </h4>
+                    <p class="categories_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem
+                    </p>
+                </div>
+                <div class="categories_text-block">
+                    <h4 class="categories_heading">
+                        We Provide Premium Pottery Produts
+                    </h4>
+                    <p class="categories_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="container">
+            <div class="info_block flex flex_info-column">
+                <div class="info_square">
+
+                </div>
+                <div class="info_text-block">
+                    <h5 class="info_title">
+                        Gold & Black Pottery
+                    </h5>
+                    <p class="info_text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore dolore aua. Ut enim ad minim veniam, quis nostrud exercitationulco laboris nisi ut aliquip ex ea commodo consequatuisaute.
+                    </p>
+                    <p class="info_details">
+                        <a class="info_link" href="#">View Details</a>
+                    </p>
+                </div>
+            </div>
+            <div class="info_block flex flex_info-reverse flex_info-column">
+               <div class="info_square info_square-content">
+
+               </div>
+               <div class="info_text-block">
+                    <h5 class="info_title">
+                        Orange Ceramic
+                    </h5>
+                    <p class="info_text">
+                        Pri cu dico labores officiis, odio principes complectitur ad sea. Sea id doctus forensibus, nec lorem vocent aliquam eu. Aliquid definitiones id cum, ad meliore perpetua referrentur sed. Quas suscipit ad mea verear vivendo tincidunt.
+                    </p>
+                    <p class="info_details">
+                        <a class="info_link" href="#">View Details</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="gallery">
+        <div class="container gallery_container">
+            <div class="block">
+                <p class="block_pretitle block_pretitle-margin">
+                    Our online store
+                </p>
+                <h3 class="block_title block_title-spacing">
+                    Pottery Collection
+                </h3>
+            </div>
+            
+            <div class="gallery_grid">
+                <div class="gallery_item">
+                    <div class="gallery_image">
+                        <img class="gallery_img" src="./img/gallery/image_1.png" alt="image_1">
+                    </div>
+                    <div>
+                        <p class="gallery_text">
+                            Decor Plate
+                        </p>
+                        <p class="gallery_price" >
+                            $ 65.00 USD
+                        </p>
+                    </div>
+                </div>
+                <div class="gallery_item">
+                    <div class="gallery_image">
+                        <img class="gallery_img" src="./img/gallery/image_2.png" alt="image_1">
+                    </div>
+                    <div>
+                        <p class="gallery_text">
+                            Mint Pottery
+                        </p>
+                        <p class="gallery_price" >
+                            $ 75.00 USD
+                        </p>
+                    </div>
+                </div>
+                <div class="gallery_item">
+                    <div class="gallery_image">
+                        <img class="gallery_img" src="./img/gallery/image_3.png" alt="image_1">
+                    </div>
+                    <div>
+                        <p class="gallery_text">
+                            Set Of Potterys
+                        </p>
+                        <p class="gallery_price" >
+                            $ 125.00 USD
+                        </p>
+                    </div>
+                </div>
+                <div class="gallery_item">
+                    <div class="gallery_image">
+                        <img class="gallery_img" src="./img/gallery/image_4.png" alt="image_1">
+                    </div>
+                    <div>
+                        <p class="gallery_text">
+                            Orange Ceramic
+                        </p>
+                        <p class="gallery_price" >
+                            $ 55.00 USD
+                        </p>
+                    </div>
+                </div>
+                <div class="gallery_item">
+                    <div class="gallery_image">
+                        <img class="gallery_img" src="./img/gallery/image_5.png" alt="image_1">
+                    </div>
+                    <div>
+                        <p class="gallery_text">
+                            Dark Bowl
+                        </p>
+                        <p class="gallery_price" >
+                            $ 115.00 USD
+                        </p>
+                    </div>
+                </div>
+                <div class="gallery_item">
+                    <div class="gallery_image">
+                        <img class="gallery_img" src="./img/gallery/image_6.png" alt="image_1">
+                    </div>
+                    <div>
+                        <p class="gallery_text">
+                            Square Pottery
+                        </p>
+                        <p class="gallery_price" >
+                            $ 65.00 USD
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="button">
+                View All Products
+            </button>
+        </div>    
+    </section>
+
+    <section class="shopping">
+        <div class="container flex shopping_container">
+            <div class="shopping_block">
+                <p class="shopping_pretitle">
+                    Pompeo Pottery
+                </p>
+                <h2 class="shopping_title">
+                    Ready to start shopping?
+                </h2>
+                <p class="shopping_text"> 
+                    Lorem ipsum dolor sit amet, <a class="shopping_link" href="#"> consectetur adipiscing elit.</a> Suspendisse varius enim in eros elementum.
+                </p>
+                <button class="button">
+                    New Collection
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="news">
+        <div class="container news_container">
+            <div class="news_icon" >
+                <img src="./img/news/icon_1.svg" alt="icon_1">
+            </div>
+            
+            <div class="block">
+                <p class="block_pretitle">
+                    Latest news
+                </p>
+                <h3 class="block_title">
+                    Latest <span class="block_icon "> news </span> New updates 
+                </h3>
+            </div>
+            <input class="input" type="email" placeholder="Enter your email">
+                
+            <button class="button_news">
+                SUBSCRIBE
+            </button>
+                  
+            <div>
+                <label>                    
+                    <input class="checkbox" type="checkbox">
+                    <span class="fake"></span>
+                    <span class="text">Sign up for our newsletter</span>
+                </label>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container footer_container">
+            <div>
+                <img class="footer_img" src="./img/footer/Pompeo.svg" alt="Pompeo_img">
+                <p class="footer_text">
+                    I have always striven to fix beauty in wood, stone, 
+                </p>
+                <p class="footer_text">
+                    glass or pottery, that has been my creed.
+                </p>
+            </div>
+            <div class="flex flex_footer-around">
+                <div class="footer_info">
+                    <img class="footer_icon" src="./img/footer/icon_1.svg" alt="icon_1">
+                    <p class="footer_subtitle">
+                        EMAIL
+                    </p>
+                    <p class="footer_desc">
+                        pompeopotery@gmail.com
+                    </p>
+
+                </div>
+
+                <div class="footer_info">
+                    <img class="footer_icon" src="./img/footer/icon_2.svg" alt="icon_2">
+                    <p class="footer_subtitle">
+                        FIND
+                    </p>
+                    <p class="footer_desc">
+                        Central Park, Manhattan 
+                    </p>
+                    <p class="footer_desc">
+                        New York, 1101
+                    </p>
+
+                </div>
+
+                <div class="footer_info">
+                    <img class="footer_icon" src="./img/footer/icon_3.svg" alt="icon_3">
+                    <p class="footer_subtitle">
+                        CALL
+                    </p>
+                    <p class="footer_desc">
+                        +1 292 345 678
+                    </p>
+
+                </div>
+            </div>
+ 
+        </div>
+        <div>
+            <p class="footer_slogan">
+                Template design by <span class="footer_slogan-black"> Dorian Hoxha </span> - <span class="footer_slogan-black"> Image License Info </span>Powered by <span class="footer_slogan-black"> Webflow </span>
+            </p>
+        </div>
+    </footer>
+
+
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis non voluptates distinctio quasi molestiae nulla ut, dolore quos unde assumenda?
+            </p>
+            <p class="close">
+                x
+            </p>
+        </div>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/bxslider.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/modal.js"></script>
+    <script src="./script/upButton.js"></script>
+    <script src="./script/menu.js"></script>
+
+</body>
+</html>
+
+
+
+    <!--<header class="header">
+        <div class="container flex">
+            <div class="logo flex">
+                <img class="logo_img" src="./img/header/logo.svg" alt="logo">
+                <div>
+                    <h6 class="logo_title">
+                        Foundation
+                    </h6>
+                    <p class="logo_text">
+                        Startup landing template
+                    </p>
+                </div>
+            </div>
+            <div id="menuToggle" class="menu">
+                <input id="toggleCheckbox" type="checkbox" class="menu_checkbox">
+                <div class="check-wrapper">
+                    <div class="check"></div>
+                    <div class="check"></div>
+                    <div class="check"></div>
+                </div>
+                <nav class="header_nav flex">
+                    <ul class="header_ul flex">
+                         <li class="header_li">
+                            <a class="header_link" id="about-link" href="#">Home</a>
+                        </li>
+                        <li class="header_li">
+                            <a class="header_link" href="#">Stories</a>
+                        </li>
+                    </ul>
+                    <button class="button">
+                        Get Started
+                    </button>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="container flex main_container">
+            <div class="main_text-block">
+                <h1 class="main_title">
+                    Build stunning websites & apps.
+                </h1>
+                <p class="main_text">
+                    Create live segments and target the right people for messages based on their behaviors.
+                </p>
+                <div class=" flex flex_button-column main_button">
+                    <button class="button button-width">
+                        Get Started
+                    </button>
+                    <button id="open-modal" class="button button_color-blue button-width">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <div>
+                <img class="main-image_img"  src="./img/main/ouch.png" alt="main_img">
+            </div>
+        </div>
+    </section>
+
+    <section class="base">
+        <div class="container flex flex_base-column">
+            <div class="base_info base_info-margin"> 
+                <h5 class="base_title">
+                    What is it about?
+
+                </h5>
+                <p class="base_text">
+                    Building a website for a startup that looks amazing is not a rocket science anymore.
+                </p>
+
+            </div>
+            <div class="base_info ">
+                <h5 class="base_title">
+                    Who is it for?
+
+                </h5>
+                <p class="base_text">
+                    Startups, small companies and teams, entrepreneurs and web developers.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="logos">
+        <div class="logos_grid container">
+                <div class="logos_item"><a href="#"><img class="logos_img" src="./img/logos/new.png" alt="logo"></a></div>
+                <div class="logos_item"><a href="#"><img class="logos_img" src="./img/logos/forbes.png" alt="logo"></a></div>
+                <div class="logos_item"><a href="#"><img class="logos_img" src="./img/logos/apple.png" alt="logo"></a></div>
+                <div class="logos_item"><a href="#"><img class="logos_img" src="./img/logos/mashable.png" alt="logo"></a></div>
+                <div class="logos_item"><a href="#"><img class="logos_img" src="./img/logos/wsj.png" alt="logo"></a></div>
+                <div class="logos_item"><a href="#"><img class="logos_img" src="./img/logos/google.png" alt="logo"></a></div>
+        </div>
+    </section>
+
+    <section class="customers">
+        <div class="container flex flex_customers-column">
+            <div class="info">
+                <p class="info_pretitle info_pretitle-green">
+                    Features
+                </p>
+                <h3 class="info_title">
+                    Easily find leads and customers
+                </h3>
+                <p class="info_text">
+                    Send one-off and automated email, push, and in-app messages to people. Create better stories.
+                </p>
+
+                <div class="customers_items">
+                    <div class="customers_subtitle flex_customers-start">
+                        <img class="customers_icon" src="./img/customers/Icon_1.svg" alt="icon_1">
+                        <p class="customers_subtitle_text">
+                            Acquire new customers
+                        </p>
+                    </div>
+
+                    <p class="customers_text">
+                        Everything you need to start building – including open-source code, documentation.
+                    </p>
+                    <div class="customers_line">
+                    </div>
+                </div>
+
+                <div class="customers_items">
+                    <div class="customers_subtitle flex_customers-start">
+                        <img class="customers_icon" src="./img/customers/Icon_2.svg" alt="icon_2">
+                        <p class="customers_subtitle_text">
+                            Engage users
+                        </p>
+                    </div>
+                    <p class="customers_text">
+                        Everything you need to start building – including open-source code, documentation.
+                    </p>
+                    <div class="customers_line">
+                    </div>
+                </div>
+
+                <div class="customers_items">  
+                    <div class="customers_subtitle flex_customers-start">
+                        <img class="customers_icon" src="./img/customers/Icon_3.svg" alt="icon_3">
+                        <p class="customers_subtitle_text">
+                            Develop across platforms
+                        </p>
+                    </div>
+                    <p class="customers_text">
+                        Everything you need to start building – including open-source code, documentation.
+                    </p>
+                    <div class="customers_line">
+                    </div>
+                </div> 
+
+                <div class="customers-img">
+                    <img class="customers-img_small" src="./img/customers/ouch.svg" alt="customers-img_small">
+                </div>
+            </div>
+            <div class="customers-image">
+                <img class="customers-image_img" src="./img/customers/Image_1.png" alt="customers_img">
+            </div>
+        </div>
+    </section>
+
+    <section class="inbox">
+        <div class="container flex flex_inbox-column">
+            <div class="container-image animations">
+                <img class="container-image_img" src="./img/inbox/ouch.svg" alt="img_inbox">
+            </div>
+            <div class="info">
+                <p class="info_pretitle info_pretitle-orange">
+                    Team Inbox
+                </p>
+                <h3 class="info_title">
+                    Manage conversations
+                </h3>
+                <p class="info_text">
+                    One place to manage and respond to all conversations with leads and users. Receive messages from leads.
+                </p>
+                <div class="inbox_response">
+                    <p class="inbox_text">
+                        “Great widgets. Great selection. Great design and <span class="inbox_text-bold"> easy to implement.</span> Definitely a huge time saver for a web developer!”
+                    </p>
+                    <div class="flex flex_start">
+                        <img class="inbox_img" src="./img/inbox/person.svg" alt="person">
+                        <div>
+                            <p class="inbox_name">
+                                Viella Malkovich
+                            </p>
+                            <p class="inbox_position">
+                                Creative Director at Johnson
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="communication">
+        <div class="container flex flex_communication-column">
+            <div class="info">
+                <p class="info_pretitle info_pretitle-blue">
+                    Communicate Better
+                </p>
+                <h3 class="info_title">
+                    Built for busy small teams
+                </h3>
+                <p class="info_text">
+                    Three products that can be used independently or combined together for your company’s needs.
+                </p>
+                <button class="button">Get Started</button>
+            </div>
+            <div class="container-image container-image-margin animations">
+                <img class="container-image_img" src="./img/box/ouch.png" alt="img_box">
+            </div>
+        </div>
+       
+        <div class="container flex flex_communication-column display_communicaton-none">
+            <div class="communication-block">
+                <p class="communication_text">
+                    <span class="communication_text-bold"> Subscriptions.</span> Foundation works with the tools and services you already use every day.
+                </p>
+                <p>
+                    <a class="communication_link" href="#">Learn more about subscriptions</a>
+                </p>
+            </div>
+            <div class="communication-block">
+                <p class="communication_text">
+                    <span class="communication_text-bold"> Felxible Hours.</span> Get started with our simple snippet of JavaScript or easy to install SDKs for iOS and Android.
+                </p>
+                <p>
+                    <a class="communication_link" href="#">Get more info about hours</a>
+                </p>
+            </div>
+            <div class="communication-block">
+                <p class="communication_text">
+                    <span class="communication_text-bold"> Fast Communication.</span> We offer measures like 2FA and SSO to ensure the safety of your data. 
+                </p>
+                <p>
+                    <a class="communication_link" href="#">Communication guidelines</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="visitors">
+        <div class="container">
+            <div class="info info_center">
+                <p class="info_pretitle info_pretitle-black info_pretitle-margin">
+                    Engage Visitors
+                </p>
+                <h3 class="info_title info_title-max-width info_title-margin">
+                    Understand your audience
+                </h3>
+                <p class="info_text info_text-max-width info_text-margin">
+                    Early stage company? Eligible applicants get all of our products for just $49 a month.
+                </p>
+                <div class="flex flex_button-column button-group">
+                    <button class="button button-width">
+                        Get Started
+                    </button>
+                    <button class="button button_color-black button-width">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <div class="visitors_grid">
+                <div class="visitors_item">
+                    <img src="./img/grid_1/image_1.png" alt="image_1">
+                    <p class="visitors_text">
+                        Developers
+                    </p>
+                </div>
+                <div class="visitors_item">
+                    <img src="./img/grid_1/image_2.png" alt="image_2">
+                    <p class="visitors_text">
+                        Entertainment
+                    </p>
+                </div>
+                <div class="visitors_item">
+                    <img src="./img/grid_1/image_3.png" alt="image_3">
+                    <p class="visitors_text">
+                        Athletes
+                    </p>
+                </div>
+                <div class="visitors_item">
+                    <img src="./img/grid_1/image_4.png" alt="image_4">
+                    <p class="visitors_text">
+                        Creators
+                    </p>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section class="logos logos_bottom">
+        <div class="logos_grid container">
+                <div class="logos_item"><a href="#"><img class="logos_img" src="./img/logos/new.png" alt="logo"></a></div>
+                <div class="logos_item"><a href="#"><img class="logos_img" src="./img/logos/forbes.png" alt="logo"></a></div>
+                <div class="logos_item"><a href="#"><img class="logos_img" src="./img/logos/apple.png" alt="logo"></a></div>
+                <div class="logos_item"><a href="#"><img class="logos_img" src="./img/logos/mashable.png" alt="logo"></a></div>
+                <div class="logos_item"><a href="#"><img class="logos_img" src="./img/logos/wsj.png" alt="logo"></a></div>
+                <div class="logos_item"><a href="#"><img class="logos_img" src="./img/logos/google.png" alt="logo"></a></div>
+        </div>
+    </section>
+
+
+    <section class="reviews">
+        <div class="container">
+            <div class="carusel">
+                <div class="carusel_block">
+                    <p class="carusel_pretitle">
+                        Trusted by the world’s most innovative businesses – big and small
+                    </p>
+                    <p class="carusel_text">
+                        “Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+                    </p>
+                    <div>       
+                        <p class="carusel_name">
+                            <span class="carusel_name-bold"> Viella Malkovich </span>  
+                        </p>
+                        <p class="carusel_position">
+                            Creative Director at Johnson
+                        </p>
+                    </div> 
+                </div>
+
+                <div class="carusel_block">
+                    <p class="carusel_pretitle">
+                        Trusted by the world’s most innovative businesses – big and small
+                    </p>
+                    
+                    <p class="carusel_text">
+                        “Comprehensive set of startup tools for all imaginable entrepreneurial needs. 
+                    </p>
+                    <div>          
+                        <p class="carusel_name">
+                            Viella Malkovich 
+                        </p>
+                        <p class="carusel_position">
+                            Creative Director at Johnson
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carusel_block">
+                    <p class="carusel_pretitle">
+                        Trusted by the world’s most innovative businesses – big and small
+                    </p>
+                    <p class="carusel_text">
+                        “Comprehensive set of startup tools for all imaginable entrepreneurial needs. 
+                    </p>
+                    <div>
+                        <p class="carusel_name">
+                            Viella Malkovich  
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-img">
+                <img class="reviews-img_small" src="./img/reviews/ouch.png" alt="reviews-img_small">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about_all">
+                <h3 class="about_title">
+                    We’re hiring
+                </h3>
+                <p class="about_desc">
+                    We’re a team of lifelong learners. We’re equal parts left and right brained.
+                </p>
+                <button class="button about_button">
+                    More about Company
+                </button>
+            </div>
+            <div>
+                <div class="about-items">
+                    <div class="flex">
+                        <div class="flex flex_about-column">
+                            <p class="about_pritatle">
+                                Front-End Developer
+                            </p>
+                            <p class="about-town">
+                                Los Angeles / Remote
+                            </p>
+                        </div>
+                        <div class="about-icon-block">
+                            <p class="about-icon">
+                                >
+                            </p>
+                        </div>
+                    </div>
+                    <p class="about-text">
+                        Everything you need to start building – including open-source code, documentation.
+                    </p>
+                </div>
+                <div class="about-items">
+                    <div class="flex">
+                        <div class="flex flex_about-column">
+                            <p class="about_pritatle">
+                                Front-End Developer
+                            </p>
+                            <p class="about-town">
+                                New York / Full-Time
+                            </p>
+                        </div>
+                        <div class="about-icon-block">
+                            <p class="about-icon">
+                                >
+                            </p>
+                        </div>
+                    </div>
+                    <p class="about-text">
+                        Everything you need to start building – including open-source code, documentation.
+                    </p>
+                </div>
+                <div class="about-items">
+                    <div class="flex">
+                        <div class="flex flex_about-column">
+                            <p class="about_pritatle">
+                                Front-End Developer
+                            </p>
+                            <p class="about-town">
+                                New York / Full-Time
+                            </p>
+                        </div>
+                        <div class="about-icon-block">
+                            <p class="about-icon">
+                                >
+                            </p>
+                        </div>
+                    </div>
+                    <p class="about-text">
+                        Everything you need to start building – including open-source code, documentation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h3 class="gallery_title">
+                All Surfaces Covered
+            </h3>
+            <p class="gallery_text">
+                 IOON kills bacteria on your hands, food, tables, laptops, you name it
+            </p>
+            <div class="gallery_grid">
+                <div class="gallery_item"><img class="gallery_img" src="./img/grid-2/image_1.png" alt="image_1"></div>
+                <div class="gallery_item"><img class="gallery_img" src="./img/grid-2/image_2.png" alt="image_2"></div>
+                <div class="gallery_item"><img class="gallery_img" src="./img/grid-2/image_3.png" alt="image_3"></div>
+                <div class="gallery_item"><img class="gallery_img" src="./img/grid-2/image_4.png" alt="image_4"></div>
+                <div class="gallery_item"><img class="gallery_img" src="./img/grid-2/image_5.png" alt="image_5"></div>
+                <div class="gallery_item"><img class="gallery_img" src="./img/grid-2/image_6.png" alt="image_6"></div>
+                <div class="gallery_item"><img class="gallery_img" src="./img/grid-2/image_7.png" alt="image_7"></div>
+            </div>
+        </div>    
+    </section>
+
+    <section class="start-trial">
+        <div class="container flex_start-trial-evenly flex_start-trial-column start-trial_block">
+            <div start-trial_image >
+                <img src="./img/start-trial/window.png" alt="window">
+            </div>
+            <div class="start-trial_info">
+                <h4 class="start-trial_title">
+                    Start your free trial.
+                </h4>
+                <p class="start-trial_text">
+                    Get notified about company updates, news and blog posts. We hate spam.
+                </p>
+
+                <input class="input" type="email" placeholder="Enter your email">
+                
+                <button class="button button_start-trial">
+                    Get Started
+                </button>
+
+                <div class="start-trial_content">
+                    <p class="start-trial_terms">
+                        Free 14-day trial · Easy setup · Cancel any time. Check out <a class="start-trial_terms-blue" href="#">Terms of Use.</a>
+                    </p>
+                    <div>
+                        <label>
+                            <span class="text">I agree</span>
+                            <input class="checkbox" type="checkbox">
+                            <span class="fake"></span>
+                        </label>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="flex footer_main">
+                <div>
+                    <div class="logo flex flex_logo-start flex_logo-column">
+                        <img class="logo_img logo_img-margin-right" src="./img/header/logo.svg" alt="logo">
+                        <div>
+                            <h6 class="logo_title">
+                                Foundation
+                            </h6>
+                            <p class="logo_text logo_text-display">
+                                Startup landing template
+                            </p>
+                        </div>
+                    </div>
+                    <p class="footer_template">
+                        Foundation is a website template for startups and small teams. It helps to build a website in no time.
+                    </p>
+                    <div class="footer_img">
+                        <img src="./img/footer/AppStore.png" alt="AppStore">
+                        <img src="./img/footer/Google Play.png" alt="Google Play">
+                    </div>
+                </div>    
+                <div>
+                    <h6 class="footer_title">
+                         Product
+                    </h6>
+                    <p class="footer_text">Acquire Users </p> 
+                    <p class="footer_text">Content Marketing </p> 
+                    <p class="footer_text">Website Templates</p> 
+                    <p class="footer_text">Customer Management</p>
+                    <p class="footer_text">Virtual Inbox</p>                     
+                </div>
+                <div>
+                    <h6 class="footer_title">
+                        Company
+                    </h6>
+                    <p class="footer_text">About Foundation</p>                          
+                    <p class="footer_text">Brand Guidelines</p>
+                    <p class="footer_text">Press Kit</p>
+                    <p class="footer_text">Support</p>
+                </div>
+            </div>
+            <div class="flex flex_footer-column">
+                <div class="flex footer_slogan">
+                    <p>
+                        Terms
+                    </p>
+                    <p>
+                        Privacy
+                    </p>
+                    <p>
+                        License
+                    </p>
+                </div>
+                <div class="flex footer_icon">
+                    <img src="./img/footer/icon-twitter.png" alt="icon-twitter">
+                    <img src="./img/footer/icon-fb.png" alt="icon-fb">
+                    <img src="./img/footer/LinkedIn.png" alt="LinkedIn.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis non voluptates distinctio quasi molestiae nulla ut, dolore quos unde assumenda?
+            </p>
+            <p class="close">
+                x
+            </p>
+        </div>
+    </div>
+
+    <div id="up">
+        <span>></span>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/bxslider.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/modal.js"></script>
+    <script src="./script/upButton.js"></script>
+    <script src="./script/menu.js"></script>
+</body>
+</html>
